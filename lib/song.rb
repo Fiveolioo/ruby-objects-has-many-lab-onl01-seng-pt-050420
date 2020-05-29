@@ -6,6 +6,6 @@ class Song
     @artist
   end
   
-  def artist
-    @artist = :artist
+  def artist(name)
+    @artist = artist
 end

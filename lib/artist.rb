@@ -12,7 +12,7 @@ class Artist
     Song.all.select { |song| song.artist == self }
   end
   
-  def add_song(songs)
-    self.artist = songs
+  def add_song(song)
+    self.artist = song
   end
 end

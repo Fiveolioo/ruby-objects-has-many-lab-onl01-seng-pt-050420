@@ -7,7 +7,6 @@ class Artist
   end
   
   def songs
-    puts "Song #{Song}"
     puts "name #{@name}"
     puts "songs #{@songs}"
     @songs

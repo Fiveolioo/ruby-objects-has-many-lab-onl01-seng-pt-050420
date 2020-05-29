@@ -7,7 +7,7 @@ class Artist
   end
   
   def songs
-    puts "test #{Song.all}"
+    puts "test #{Song}"
     Song.all.select { |song| song.artist == self }
   end
 end

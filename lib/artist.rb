@@ -10,5 +10,6 @@ class Artist
     puts "Song #{Song}"
     puts "name #{@name}"
     puts "songs #{@songs}"
+    @songs
   end
 end

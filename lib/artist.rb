@@ -22,6 +22,6 @@ class Artist
   end
   
   def self.song_count
-    puts @@all.first
+    puts Song.all
   end
 end

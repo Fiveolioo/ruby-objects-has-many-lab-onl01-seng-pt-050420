@@ -22,6 +22,6 @@ class Artist
   end
   
   def self.song_count
-    @@all.select { |song| song.artist == self }.length
+    puts @@all.first
   end
 end

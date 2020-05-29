@@ -7,7 +7,6 @@ class Artist
   end
   
   def songs
-    puts "Songs #{Song.new
-    }"
+    Song.all.select { |song| song.artist == self }
   end
 end

@@ -7,7 +7,7 @@ class Artist
   end
   
   def songs
-    puts "Songs #{Song
+    puts "Songs #{Song.new
     }"
   end
 end

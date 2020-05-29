@@ -8,10 +8,6 @@ class Song
     @@all << self
   end
   
-  def artist
-    @artist = name
-  end
-  
   def save
     @@all << self
   end
